@@ -14,7 +14,7 @@ int main(void)
 	y = 1;
 
 	for (count = 1; count <= 90; count++)
-	
+	{
 		z = x + y;
 		x = y;
 		y = z;
@@ -23,7 +23,7 @@ int main(void)
 
 	a = x % 1000;
 	x = x / 1000;
-	b = y % 1000
+	b = y % 1000;
 	y = y / 1000;
 
 	while (count <= 98)
