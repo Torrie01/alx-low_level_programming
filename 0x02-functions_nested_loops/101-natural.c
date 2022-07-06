@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  * main - list all natural numbers multiples of 3 & 5
+ * main - list all natural numbers multiples of 3 & 5
  *
  * Return: Always 0
  */
@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (num % 3 == 0 || num % 5 == 0)
 		{
-			sum += num;											
+			sum += num;
 		}
 	}
 	printf("%d\n", sum);
