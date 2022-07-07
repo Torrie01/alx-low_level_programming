@@ -9,7 +9,7 @@ int main(void)
 	long int x, i, pf;
 
 	pf = -1;
-i	x = 612852475143;
+	x = 612852475143;
 
 	while (x % 2 == 0)
 	{
